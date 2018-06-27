@@ -12,6 +12,6 @@ goto download
 SET /P video="Select video format: "
 SET /P audio="Select audio format: "
 ECHO.
-youtube-dl -o %%(title)s.%%(ext)s -f %video%+%audio% -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -o Downloads/%%(title)s.%%(ext)s -f %video%+%audio% -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 pause
