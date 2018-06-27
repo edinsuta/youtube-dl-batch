@@ -12,11 +12,14 @@ This batch file allows for advanced usage by allowing you to manually enter mult
 ## ytdlFormatList.bat
 This batch file lists all of the available video formats that you can download (read more about video format selection usage at https://github.com/rg3/youtube-dl/blob/master/README.md#format-selection).
 
+## ytdlFormatSelect.bat
+This batch file allows the user to enter a YouTube URL and then proceeds to list all available formats for that video. It then prompt the user to manually select their desired video and audio formats.
+
 ## ytdlInfo.bat
 This batch file lists basic information about your current `youtube-dl` Windows .exe release.
 
 ## ytdlQualitySelect.bat
-This batch file does the same as `ytdl.bat` but allows you to manually specify desired video quality and video fps. It is currently a bit buggy and can generate undesired results with videos that have no sound (but still include a sound file).
+This batch file does the same as `ytdl.bat` but allows you to manually specify desired video quality and video fps. It is currently a bit buggy and can generate undesired results for some videos.
 
 ## ytdlUpdate.bat
 This batch file updates your current `youtube-dl` .exe file if an update is available.
