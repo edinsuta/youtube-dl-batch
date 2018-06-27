@@ -4,4 +4,5 @@ SET /P arguments="Enter custom arguments: "
 ECHO.
 youtube-dl -o Downloads/%%(title)s.%%(ext)s %arguments%
 ECHO.
-pause
+PAUSE
+EXIT

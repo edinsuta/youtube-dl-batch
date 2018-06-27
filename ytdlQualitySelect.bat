@@ -5,5 +5,6 @@ SET /P fps="Enter desired FPS (keep in mind that the FPS you select must be avai
 ECHO.
 youtube-dl -o Downloads/%%(title)s.%%(ext)s -f "bestvideo[height<=?%height%][fps<=?%fps%]+bestaudio/best" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
-pause
+PAUSE
+EXIT
 
