@@ -1,4 +1,6 @@
-@echo off
-set /p URL="Enter YouTube video URL: "
-start /b "" "%cd%\youtube-dl.exe" -F "%URL%"
-pause >nul
+@ECHO OFF
+SET /P URL="Enter YouTube video URL: "
+ECHO.
+youtube-dl -F %URL%
+ECHO.
+pause
