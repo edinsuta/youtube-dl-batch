@@ -1,7 +1,7 @@
 # youtube-dl-batch
 These batch files are just made to simplify the usage of Windows .exe releases of http://rg3.github.io/youtube-dl/ (Source: https://github.com/rg3/youtube-dl) for people who want to just simply use `youtube-dl` as a tool to download high-quality videos from YouTube (or elsewhere) without using third-party services or software clients (since these usually come with video quality restrictions) rather than use it for development purposes.
 
-Videos with video quality above 720p will have to download the video and audio files seperately and then merge them into one file (thats just how YouTube works for some reason). To merge video and audio files `youtube-dl` requires that FFmpeg (https://www.ffmpeg.org/) is installed on your system. Alternatively, if you don't want to install FFmpeg you can download the `youtube-dl-batch` release which includes all neccessary files (including FFmpeg). There is also a `-noFFmpeg` version of the release.
+Videos with video quality above 720p will have to download the video and audio files seperately and then merge them into one file (thats just how YouTube works for some reason). To merge video and audio files `youtube-dl` requires that FFmpeg (https://www.ffmpeg.org/) is installed on your system or that the 'ffmpeg.exe' file is contained in the same folder as 'youtube-dl.exe'.
 
 **Note that the  `youtube-dl.exe` file must be stored in the same directory as the .bat files in order to work.**
 
