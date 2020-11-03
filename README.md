@@ -20,7 +20,5 @@ This batch file lists basic information about your current `youtube-dl` Windows 
 ## ytdlUpdate.bat
 This batch file updates your current `youtube-dl` .exe file if an update is available.
 
-**This file does not currently work ever since youtube-dl's main repository got a DMCA takedown. It is unclear wether it will work in the future, if the main youtube-dl repository ever comes back.**
-
 ## Note
 This repository and its files are currently very barebones. This is all just made for fun and nothing too serious. I might add extra features later on. Feel free to contribute if you wish!
